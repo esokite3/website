@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
     background-color: #edede9;
+    color: #2E3331;
 }
 
 h1 {
@@ -14,7 +15,7 @@ a {
 }
 
 nav {
-    text-align: left;
+    text-align: right;
 }
 
 nav ul {
@@ -28,7 +29,6 @@ nav ul li {
     gap: 10px;
     list-style-type: none;
     color: #2E3331;
-    text-align: right;
 }
 
 nav ul li a {
@@ -39,6 +39,10 @@ nav ul li a {
 nav a:hover {
     background-color: #E9FF32;
     transform: scale(1.5);
+}
+
+.pin-img {
+    margin: 0.5em;
 }
 
 #socialflexbox {
