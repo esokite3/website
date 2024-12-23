@@ -8,6 +8,11 @@ h1 {
     color: #2E3331;
 }
 
+a {
+    text-decoration: none;
+    color: #2E3331;
+}
+
 nav {
     text-align: left;
 }
@@ -45,10 +50,6 @@ nav a:hover {
 #resumelink {
     color: #075dbf;
     text-decoration: underline dotted red;
-}
-
-#resumelink:visited {
-    color: #075dbf;
 }
 
 .technicalskill {
