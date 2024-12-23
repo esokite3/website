@@ -11,10 +11,12 @@ h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 0%;
 }
 
 nav ul li {
     display: inline-block;
+    gap: 10px;
     list-style-type: none;
     color: #2E3331;
     text-align: right;
@@ -22,11 +24,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: #2E3331;
 }
 
 nav a:hover {
     background-color: #E9FF32;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 #socialflexbox {
