@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #EEECE1;
+}
+
+h1 {
+    color: #2E3331;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    color: #2E3331;
+    text-align: right;
+}
+
+.topnav a:hover {
+    background-color: #E9FF32;
+    transform: scale(1.2);
+}
+
+#socialflexbox {
+    display: flex;
+    color: #2E3331;
+    gap: 10px;
+}
+
+#resumelink {
+    color: #075dbf;
+    text-decoration: underline dotted red;
+}
+
+.technicalskill {
+    display: flex;
+    color: #2E3331;
+    gap: 10px;
+}
