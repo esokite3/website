@@ -1,15 +1,11 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: #EEECE1;
+    background-color: #edede9;
 }
 
 h1 {
     color: #2E3331;
-}
-
-a {
-    text-decoration: none;
 }
 
 nav ul {
@@ -24,7 +20,11 @@ nav ul li {
     text-align: right;
 }
 
-.topnav a:hover {
+nav ul li a {
+    text-decoration: none;
+}
+
+nav a:hover {
     background-color: #E9FF32;
     transform: scale(1.2);
 }
